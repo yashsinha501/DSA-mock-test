@@ -1,0 +1,8 @@
+def calculate_mean(lst):
+    tmp=0
+    for i in lst:
+        tmp=tmp+i
+    return (tmp/len(lst))
+
+# data=[10,15,20,25,30]
+# calculate_mean(data)
